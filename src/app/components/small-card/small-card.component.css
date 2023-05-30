@@ -28,3 +28,23 @@
 .container__smal-card-separator > hr {
     margin: 10px 0;
 }
+
+/* Responsive */
+@media screen and (max-width:767px) {
+    .container__small-card {
+        width: auto;
+        margin: 0 15px;
+    }
+
+    .container__small-card-content {
+        flex-direction: column;
+    }
+
+    .small-card__photo {
+        text-align: center;
+    }
+
+    .small-card__title > h1 {
+        font-size: 1rem;
+    }
+}

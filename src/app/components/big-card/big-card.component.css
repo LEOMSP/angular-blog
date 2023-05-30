@@ -15,10 +15,25 @@
 
 .big-card__title > h1 {
     font-size: 2rem;
+    text-transform: uppercase;
     margin-top: 10px;
 }
 
 .big-card__description > p {
     margin-top: 10px;
     color: grey;
+}
+
+
+
+/* Responsive */
+@media screen and (max-width:767px) {
+    .container__big-card {
+        width: auto;
+        margin-bottom: 15px;
+    }
+
+    .big-card__title > h1 {
+        font-size: 1rem;
+    }
 }

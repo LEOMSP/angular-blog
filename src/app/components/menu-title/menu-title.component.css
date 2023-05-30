@@ -4,7 +4,7 @@
 
 .menu__title__container > h1 {
     margin: 15px 0;
-    font-size: 17rem;
+    font-size: 10rem;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-transform: uppercase;
     display: flex;
@@ -13,4 +13,11 @@
 
 .menu__title__container > hr {
     margin: 5px 0;
+}
+
+/* Responsive */
+@media screen and (max-width:767px) {
+    .menu__title__container > h1 {
+        font-size: 3rem;
+    }
 }
